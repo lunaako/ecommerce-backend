@@ -1,0 +1,6 @@
+#!/Users/luna/projects/learning_2026/ecommerce-backend-project/.venv/bin/python
+import sys
+from alembic.config import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
